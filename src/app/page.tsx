@@ -20,5 +20,6 @@ export default function Home(){
         <Recipes/>
         <Categories />
         <Footer />
+
     </>
 )}

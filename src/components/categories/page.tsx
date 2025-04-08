@@ -8,7 +8,10 @@ interface CategoriesProps {
 const links = [
     { label: "Carnes", href: "/carnes", icon: FaDrumstickBite },
     { label: "Massas", href: "/massas", icon: FaPizzaSlice },
-    { label: "Sobremesas", href: "/sobremesas", icon: FaIceCream }
+    { label: "Sobremesas", href: "/sobremesas", icon: FaIceCream },
+    { label: "Cadastro Receita", href: "/form", icon: FaIceCream },
+    { label: "Ver Receita", href: "/listaReceita", icon: FaIceCream }
+    
 ];
 
 export function Categories({ active }: CategoriesProps) {
